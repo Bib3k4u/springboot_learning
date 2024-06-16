@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/journal")
+@CrossOrigin(origins = "http://localhost:3000")
 class JournalEntryControllerV2 {
 
     @Autowired
