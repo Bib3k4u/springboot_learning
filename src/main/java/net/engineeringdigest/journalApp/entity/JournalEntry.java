@@ -11,7 +11,7 @@ import java.util.Date;
 public class JournalEntry {
 
     @Id
-    ObjectId id;
+    String id;
     public String title;
     public String content;
 
@@ -25,11 +25,11 @@ public class JournalEntry {
 
     private LocalDateTime date;
 
-    public ObjectId getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(ObjectId id) {
+    public void setId(String id) {
         this.id = id;
     }
 
